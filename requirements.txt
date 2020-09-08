@@ -1,0 +1,7 @@
+numpy
+pandas
+scikit-image
+ipython
+matplotlib
+keras
+tensorflow==2.3.0

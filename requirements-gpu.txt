@@ -1,0 +1,7 @@
+numpy
+pandas
+scikit-image
+ipython
+matplotlib
+keras
+tensorflow-gpu==2.1.0
