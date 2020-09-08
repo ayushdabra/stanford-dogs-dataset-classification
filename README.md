@@ -44,7 +44,8 @@ Contents of the dataset:
 The dataset can be downloaded from <a href= "http://vision.stanford.edu/aditya86/ImageNetDogs/">here.</a>
 
 Sample images of 50 different categories from the dataset:
-![Images of Dogs](/images/dogs_images.png)
+![Images of Dogs]
+(/images/dogs_images.png)
 
 ## Approach
 ### Data Augmentation
@@ -56,9 +57,13 @@ Data augmentation is done through the following techniques:
 - Rotation (20)
 - Width Shifting (0.2)
 - Height Shifting (0.2)
-![Augmented Image](/images/augmented_image.png)
+
+![Augmented Image]
+(/images/augmented_image.png)
+
 ### Model Architecture
-![InceptionV3](/images/model_plot.png)
+![InceptionV3]
+(/images/model_plot.png)
 
 ## References
 - The original data source is found on http://vision.stanford.edu/aditya86/ImageNetDogs/ and contains additional information on the train/test splits and baseline results.
