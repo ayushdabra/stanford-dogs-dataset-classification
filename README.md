@@ -81,7 +81,7 @@ _________________________________________________________________
 A detailed layout of the model is available [here.](/images/model_plot.png)
 
 ### Training Results
-![Model Accuracy and Loss](/images/augmented_image.png)
+![Model Accuracy and Loss](/images/train_acc_loss.png)
 
 ## References
 - The original data source is found on http://vision.stanford.edu/aditya86/ImageNetDogs/ and contains additional information on the train/test splits and baseline results.
