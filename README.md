@@ -78,7 +78,7 @@ Trainable params: 245,880
 Non-trainable params: 21,802,784
 _________________________________________________________________
 ```
-A detailed layout of the model is available [here.](https://github.com/ayushdabra/stanford-dogs-dataset-classification/images/model_plot.png)
+A detailed layout of the model is available [here.](/images/model_plot.png)
 
 ### Training Results
 ![Model Accuracy](/images/baseline_acc_epoch.png)![Model Loss](/images/baseline_loss_epoch.png)
