@@ -45,7 +45,22 @@ The dataset can be downloaded from <a href= "http://vision.stanford.edu/aditya86
 
 Sample images of 50 different categories from the dataset:
 ![Images of Dogs](/images/dogs_images.png)
+
+## Approach
+### Data Augmentation
+Data augmentation is done through the following techniques:
+- Rescaling (1./255)
+- Shear Transformation (0.2)
+- Zoom (0.2)
+- Horizontal Flipping
+- Rotation (20)
+- Width Shifting (0.2)
+- Height Shifting (0.2)
+![Augmented Image](/images/augmented_image.png)
+### Model Architecture
+![InceptionV3](/images/model_plot.png)
+
 ## References
-The original data source is found on http://vision.stanford.edu/aditya86/ImageNetDogs/ and contains additional information on the train/test splits and baseline results.
+- The original data source is found on http://vision.stanford.edu/aditya86/ImageNetDogs/ and contains additional information on the train/test splits and baseline results.
 - Aditya Khosla, Nityananda Jayadevaprakash, Bangpeng Yao and Li Fei-Fei. Novel dataset for Fine-Grained Image Categorization. First Workshop on Fine-Grained Visual Categorization (FGVC), IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2011.  <a href="http://people.csail.mit.edu/khosla/papers/fgvc2011.pdf">[pdf]</a> <a href="http://vision.stanford.edu/documents/KhoslaJayadevaprakashYaoFeiFei_FGVC2011.pdf">[poster]</a> <a href="http://vision.stanford.edu/bibTex/KhoslaJayadevaprakashYaoFeiFei_FGVC2011.bib">[BibTex]</a>
 - J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li and L. Fei-Fei, ImageNet: A Large-Scale Hierarchical Image Database. IEEE Computer Vision and Pattern Recognition (CVPR), 2009.  <a href="http://www.image-net.org/papers/imagenet_cvpr09.pdf">[pdf]</a> <a href="http://www.image-net.org/papers/imagenet_cvpr09.bib">[BibTex]</a>
