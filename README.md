@@ -9,7 +9,7 @@ The <a href= "http://vision.stanford.edu/aditya86/ImageNetDogs/">Stanford Dogs D
 I have used the InceptionV3 CNN Model, which is pre-trained on the ImageNet dataset for classification. Data augementation has been used for making the model generalize better and also to avoid overfitting. The model achieved an accuracy of 80% on validation set, which is decent enough for this dataset.
 
 ## Getting Started
-The `inceptionv3-for-stanford-dogs-dataset.ipynb` notebook can be directly run on Kaggle after loading the dataset in the Kaggle Kernel. Use Kaggle's Nvidia Tesla P100 GPU for faster training and evaluation.
+The `inceptionV3-for-stanford-dogs-dataset.ipynb` notebook can be directly run on Kaggle after loading the dataset in the Kaggle Kernel. Use Kaggle's Nvidia Tesla P100 GPU for faster training and evaluation.
 
 ### Pre-Requisites
 For running the notebook on your local machine, following pre-requisites must be satisfied:
