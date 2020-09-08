@@ -60,7 +60,7 @@ Data augmentation is done through the following techniques:
 
 ![Augmented Image](/images/augmented_image.png)
 
-### Model Architecture
+### Model Details
 ```
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -81,7 +81,7 @@ _________________________________________________________________
 A detailed layout of the model is available [here.](/images/model_plot.png)
 
 ### Training Results
-![Model Accuracy](/images/baseline_acc_epoch.png)![Model Loss](/images/baseline_loss_epoch.png)
+![Model Accuracy and Loss](/images/augmented_image.png)
 
 ## References
 - The original data source is found on http://vision.stanford.edu/aditya86/ImageNetDogs/ and contains additional information on the train/test splits and baseline results.
