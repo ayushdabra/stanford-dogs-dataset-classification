@@ -45,7 +45,7 @@ The dataset can be downloaded from <a href= "http://vision.stanford.edu/aditya86
 
 Sample images of 50 different categories from the dataset:
 
-![Images of Dogs](/images/dogs_images.png){: style="float:left; padding-top:10px" }
+![Images of Dogs](/images/dogs_images.png)
 
 ## Approach
 ### Data Augmentation
@@ -58,7 +58,7 @@ Data augmentation is done through the following techniques:
 - Width Shifting (0.2)
 - Height Shifting (0.2)
 
-<img align="left" width="512" height="512" src="/images/augmented_image.png">
+<img width="512" height="512" src="/images/augmented_image.png">
 
 ### Model Architecture
 ![InceptionV3]
