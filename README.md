@@ -58,11 +58,10 @@ Data augmentation is done through the following techniques:
 - Width Shifting (0.2)
 - Height Shifting (0.2)
 
-<img width="512" height="512" src="/images/augmented_image.png">
+![Augmented Image](/images/augmented_image.png)
 
 ### Model Architecture
-![InceptionV3]
-(/images/model_plot.png)
+![InceptionV3](/images/model_plot.png)
 
 ## References
 - The original data source is found on http://vision.stanford.edu/aditya86/ImageNetDogs/ and contains additional information on the train/test splits and baseline results.
