@@ -58,7 +58,7 @@ Data augmentation is done through the following techniques:
 - Width Shifting (0.2)
 - Height Shifting (0.2)
 
-<img align="left" src="/images/augmented_image.png">
+<img align="left" width="100" height="100" src="/images/augmented_image.png">
 
 ### Model Architecture
 ![InceptionV3]
