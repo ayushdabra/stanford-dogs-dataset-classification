@@ -61,10 +61,27 @@ Data augmentation is done through the following techniques:
 ![Augmented Image](/images/augmented_image.png)
 
 ### Model Architecture
-![InceptionV3](/images/model_plot.png)
+```
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+inception_v3 (Functional)    (None, 5, 5, 2048)        21802784  
+_________________________________________________________________
+global_average_pooling2d (Gl (None, 2048)              0         
+_________________________________________________________________
+dropout (Dropout)            (None, 2048)              0         
+_________________________________________________________________
+dense (Dense)                (None, 120)               245880    
+=================================================================
+Total params: 22,048,664
+Trainable params: 245,880
+Non-trainable params: 21,802,784
+_________________________________________________________________
+```
+A detailed layout of the model is available [here.](https://github.com/ayushdabra/stanford-dogs-dataset-classification/images/model_plot.png)
 
 ### Training Results
-![Model Accuracy](/images/baseline_acc_epoch.png)  ![Model Loss](/images/baseline_loss_epoch.png)
+![Model Accuracy](/images/baseline_acc_epoch.png)![Model Loss](/images/baseline_loss_epoch.png)
 
 ## References
 - The original data source is found on http://vision.stanford.edu/aditya86/ImageNetDogs/ and contains additional information on the train/test splits and baseline results.
