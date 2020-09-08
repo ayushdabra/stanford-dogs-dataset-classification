@@ -44,8 +44,8 @@ Contents of the dataset:
 The dataset can be downloaded from <a href= "http://vision.stanford.edu/aditya86/ImageNetDogs/">here.</a>
 
 Sample images of 50 different categories from the dataset:
-![Images of Dogs]
-(/images/dogs_images.png)
+
+![Images of Dogs](/images/dogs_images.png){: style="float:left; padding-top:10px" }
 
 ## Approach
 ### Data Augmentation
@@ -58,8 +58,7 @@ Data augmentation is done through the following techniques:
 - Width Shifting (0.2)
 - Height Shifting (0.2)
 
-![Augmented Image]
-(/images/augmented_image.png)
+<img align="left" src="/images/augmented_image.png">
 
 ### Model Architecture
 ![InceptionV3]
