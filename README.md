@@ -58,7 +58,7 @@ Data augmentation is done through the following techniques:
 - Width Shifting (0.2)
 - Height Shifting (0.2)
 
-![Augmented Image](/images/augmented_image.png)
+![Augmented Image](/images/augmented_image.png =250x250)
 
 ### Model Details
 ```
