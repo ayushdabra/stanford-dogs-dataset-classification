@@ -18,7 +18,7 @@ For running the notebook on your local machine, following pre-requisites must be
 - Keras
 
 ### Installation
-Dependencies:
+**Dependencies:**
 ```
 # With Tensorflow CPU
 pip install -r requirements.txt
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 # With Tensorflow GPU
 pip install -r requirements-gpu.txt
 ```
-Nvidia Driver (For GPU, if you haven't set it up already):
+**Nvidia Driver (For GPU, if you haven't set it up already):**
 ```
 # Ubuntu 20.04
 sudo apt-add-repository -r ppa:graphics-drivers/ppa
